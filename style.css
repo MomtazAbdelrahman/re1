@@ -1,0 +1,377 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+body{
+font-family: 'roboto' , sans-serif;
+background-image: url(blue_bg.png);
+background-repeat: no-repeat;
+min-width: 100vw;
+background-size: 100%;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+position: relative;
+bottom: 0px;
+}
+
+
+.nav{
+display: flex;
+justify-content:space-between;
+
+}
+
+.div1{
+display: flex;
+margin: 40px;
+}
+.decoration{
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+}
+
+
+.div1 h6{
+padding: 30px;
+font-size: 20px;
+font-weight: 800;
+max-width: 850px;
+}
+.div1 img{
+  width: 15%;
+  height: 90%;
+}
+.div2 input{
+  
+font-size: 20px;
+font-weight: 800;
+max-width: 850px;
+margin-right: 100px;  
+margin-top: 60px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 25px;
+background-color: white;
+color: black;
+outline: none;
+border: 1px solid #ffffff;
+}
+.sec1{
+  display: flex;
+  justify-content: space-around;
+
+}
+.sec1div1{
+white-space: nowrap;
+margin-left: 70px;
+margin-top: 170px;
+}
+
+.sec1div1 h1{
+
+padding: 20px;
+font-size: 35px;
+}
+
+
+
+.sec1div1 h1 strong{
+  color: blueviolet;
+}
+
+.p11{
+margin-left: 27px;
+white-space: wrap;
+}
+
+
+.img1{
+margin-left: 390px;
+width: 58%;
+position: relative;
+display: flex;
+z-index: 0;
+}
+.sec1div3 img{
+  display: flex;
+  width: 20%;
+  position: absolute;
+  right: 300px;
+}
+.sec1div4{
+display: flex;
+position: absolute;
+right: 10px;
+margin-top: 330px;
+}
+.sec1div5{
+  display: flex;
+  position: absolute;
+  margin-top: 530px
+  
+}
+
+
+.second{
+  
+  width: 80%;
+  position: relative;
+  top: 250px;
+  left: 330px;
+}
+.second img{
+width: 80%;
+}
+.middle{
+display: flex;
+min-height: calc(100vh-186px -287px -631px);
+bottom: 0;
+width: 100vw;
+}
+
+.middle-div1{
+width: 100%;
+}
+
+
+
+
+.imgh6p{
+margin-left: 150px;
+margin-top: -140px;
+}
+
+
+.imgh6p h6{
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-left: 40px;
+  padding-top: 10px; 
+}
+
+.kudzoka{
+display: flex;
+right: 60px;
+padding-top: 100px;
+position: relative;
+}
+.choose-kudzoka{
+position: absolute;
+left: 220px;
+top: 1830px;
+color: #ffffff;
+}
+.choose-kudzoka h1 {
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: 800;
+  max-width: 850px;
+} 
+
+
+
+
+.middle-div2{
+margin-left: 500px;
+position: relative;
+top: -750px;
+
+}
+.middle-div2 h6{
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+.discounts{
+margin-left: 890px;
+position: relative;
+top: -700px;
+}
+.discounts h6{
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-left: 120px;
+  padding-top: 20px;
+}
+.sec3{
+  display: flex;
+  justify-content: center;
+
+}
+
+.Group1007img{
+  position: relative;
+  top: -200px;
+}
+.Group1007h6p{
+margin-left: 180px;
+top: 90px;
+position: relative;
+top: -250px;
+margin-bottom: 600px;
+}
+.Group1007 p{
+position: relative;
+left: 40px;
+}
+
+
+.Group1007 h6{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.secfooter{
+display: flex;
+position: relative;
+
+}
+.play-app{
+position: relative;
+  top: -220px;
+display: flex;
+margin-left: 100px;
+}
+.classappstore{
+  display: flex;
+  padding-right: 10px;
+}
+
+
+
+.button-apple{
+ 
+display: flex;
+border-radius: 10%;
+padding-right: 10px;
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 0px;
+border: 1px solid #ffffff;
+outline: none;
+margin-right: 20px;
+}
+
+
+.downloudplay{
+
+  display: flex;
+}
+.button-apple h6{
+padding-left: 15px;
+  font-size:17px;
+}
+
+
+
+.buttonplay {
+  display: flex;
+}
+.button2{
+  padding-left:25px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  border-radius: 10%;
+   background-color: #ffffff; 
+  border: 2px solid #ffffff;
+
+}
+.classplaystore{
+
+  display: flex;
+
+}
+
+
+
+
+.play-h6-p h6{
+padding-bottom: 20px;
+padding-left: 5px;
+font-size: 17px;
+}
+.play-h6-p p{
+  padding-top: 5px;
+}
+
+
+
+
+.iconsfa-brands{
+display: flex;
+position: relative;
+left: -330px;
+top: -90px;
+
+}
+.iconsfa-brands i{
+color: #ffffff;
+  padding-top: 50px;
+  padding-right: 60px;
+}
+
+.navdown{
+
+display: flex;
+margin-right: 0px;
+position: relative;
+left: -600px;
+}
+.navdown h6{
+
+  font-size: 19px;
+  padding: 30px;
+}
+
+.imgright{
+  top:-600px;
+  position: absolute;
+  left: 850px;
+  width: 60%;
+}
+
+.imgright img{
+
+  width: 100%;
+} 
+
+.footer{
+  margin: 0;
+  padding: 0;
+margin-top: auto;
+overflow: hidden;
+max-width: 100vw;
+object-fit: cover;
+left: 0;
+top: 800px;
+bottom: 0;
+margin-right: 0px;
+position: absolute;
+left: -40px;
+z-index: -1;
+max-height: 790px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
